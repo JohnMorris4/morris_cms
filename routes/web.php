@@ -13,9 +13,9 @@
 
 # This is the Root of the project
 
-Route::get('/about', 'PagesController@about');
+Route::get('/about', 'PagesController@getAbout');
 
-Route::get('/contact', 'PagesController@contact');
+Route::get('/contact', 'PagesController@getContact');
 
-Route::get('/', 'PagesController@index');
+Route::get('/', 'PagesController@getIndex');
 
