@@ -12,5 +12,5 @@
     <link href="https://bootswatch.com/3/yeti/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="css/carousel.css" rel="stylesheet">
-  
+    <link href="/css/carousel.css" rel="stylesheet">
+

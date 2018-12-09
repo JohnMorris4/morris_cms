@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     @include('partials._head')
+    
 </head>
 <body>
 
@@ -11,9 +12,11 @@
 
       @yield('content')
 
+    </div><!-- /.container -->
+
 @include('partials._footer')
 
-    </div><!-- /.container -->
+
 
 @include('partials._javascript')
 </body>

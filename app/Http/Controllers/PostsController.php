@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Post;
 
 class PostsController extends Controller
 {
@@ -23,7 +24,8 @@ class PostsController extends Controller
      */
     public function create()
     {
-        //
+        $title = 'Create new post';
+        return view('posts.create', compact('title'));
     }
 
     /**
